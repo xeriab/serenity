@@ -1,7 +1,7 @@
 set(SOURCES
-    Matrix.cpp
+    Weather.cpp
     main.cpp
 )
 
-serenity_app(Matrix ICON app-screensaver)
-target_link_libraries(Matrix LibGUI LibCore LibGfx LibPthread)
+serenity_app(Weather ICON app-screensaver)
+target_link_libraries(Weather LibGUI LibCore LibGfx LibPthread)
